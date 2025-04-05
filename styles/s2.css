@@ -1,0 +1,381 @@
+.header {
+    width: 1440px; 
+    height: 100px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
+}
+
+.Header_Background {
+    width: 1440px; 
+    height: 100px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white
+}
+
+.Header_Logo {
+    width: 50px; 
+    height: 50px; 
+    left: 75px; 
+    top: 25px; 
+    position: absolute; 
+    border: 1px black solid
+}
+
+.Header_Navigationbuttons {
+    width: 600px; 
+    height: 50px; 
+    left: 765px; 
+    top: 25px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+
+.Header_Navigationbuttons_Frame {
+    flex: 1 1 0; 
+    align-self: stretch; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.Header_Navigationbuttons_Text {
+    width: 200px; 
+    height: 50px; 
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.MainInformation {
+    padding-top: 75px; 
+    padding-bottom: 175px; 
+    padding-left: 75px; 
+    padding-right: 615px; 
+    left: 75px; 
+    top: 100px; 
+    position: absolute; 
+    background-image: url("../img/oil.png"); 
+    background-size: cover;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+
+.MainInfoButton {
+    width: 300px; 
+    height: 50px; 
+    position: relative; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex;
+
+    background: #656565; 
+    border: 3px white solid;
+
+    text-align: center; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Inika; 
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Info {
+    width: 1290px; 
+    height: 300px; 
+    left: 75px; 
+    top: 600px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: start; 
+    gap: 40.72px; 
+    display: inline-flex"
+}
+
+.Additional_Info_Block {
+    width: 1290px; 
+    height: 300px; 
+    left: 75px; 
+    top: 650px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 40.72px; 
+    display: inline-flex"
+}
+
+.Additional_Info_Block_Frame {
+    flex: 1 1 0; 
+    align-self: stretch; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+
+.Additional_Info_Block_Frame_Img {
+    width: 625px; 
+    height: 250px
+}
+
+.Additional_Info_Block_Frame_Text {
+    width: 620px; 
+    height: 50px; 
+    color: black; 
+    font-size: 23px; 
+    font-family: Inika; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.Services {
+    width: 1285px; 
+    height: 1150px; 
+    left: 80px; 
+    top: 1000px; 
+    position: absolute
+}
+
+.Services_Text {
+    width: 1290px; 
+    height: 100px; 
+    left: -4px; 
+    top: 0px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 50px; 
+    font-family: Inika; 
+    font-weight: 700; 
+    word-wrap: break-word"
+}
+
+.Line {
+    width: 1281.03px; 
+    height: 450px; 
+    left: 0px; 
+    top: 100px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 29.79px; 
+    display: inline-flex
+}
+
+.Line2 {
+    width: 1281px; 
+    height: 450px; 
+    left: -0px; 
+    top: 600px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 29.79px; 
+    display: inline-flex
+}
+
+.Main_Line_Item {
+    width: 297.91px; 
+    height: 450px; 
+    position: relative; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: flex
+}
+
+.Main_Line_Item_img {
+    width: 288px; 
+    height: 390px; 
+    border-radius: 10px
+}
+
+.Main_Line_Item_text {
+    width: 290px; 
+    height: 50px; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inika; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.Servicesbutton {
+    width: 300px; 
+    height: 50px; 
+    left: 488px; 
+    top: 1100px; 
+    position: absolute;
+
+    background: #656565; 
+    border: 3px white solid;
+
+    text-align: center; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Inika; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.Contacts {
+    padding-left: 390px; 
+    padding-right: 400px; 
+    left: 75px; 
+    top: 2200px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+
+.Contacts_text {
+    width: 500px; 
+    height: 100px; 
+    text-align: center; 
+    color: black; 
+    font-size: 50px; 
+    font-family: Inika; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.Contacts_list {
+    width: 500px; 
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 5px; 
+    display: inline-flex
+}
+
+.Addresses {
+    padding-bottom: 5px; 
+    padding-left: 265px; 
+    padding-right: 275px; 
+    left: 75px; 
+    top: 2565px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.Addresses_Text {
+    width: 750px; 
+    height: 100px; 
+    text-align: center; 
+    color: black; 
+    font-size: 50px; 
+    font-family: Inika; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.Addresses_Frame {
+    width: 500px; 
+    height: 160px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 5px; 
+    display: inline-flex
+}
+
+.Address {
+    align-self: stretch; 
+    flex: 1 1 0; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.Address_Text {
+    width: 500px; 
+    height: 50px; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Inika; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+footer {   
+    height: 200px; 
+    left: 0px; 
+    top: 900px; 
+    position: absolute; 
+    margin-top: auto
+}
+
+.Footer_Frame {
+    height: 200px; 
+    position: relative; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: flex    
+}
+
+.Navigationbuttons {
+    height: 50px; 
+    padding-right: 150px;
+    padding-left: 75px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+
+.Footer_link {
+    width: 150px; 
+    align-self: stretch; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+.Footer_text {
+    width: 150px; 
+    height: 50px; 
+    color: #656565; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.Yauto {
+    padding-left: 75px; 
+
+    width: 500px; 
+    height: 50px; 
+    color: #656565; 
+    font-size: 35px; 
+    font-family: Inika; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.Yauto2024 {
+    padding-left: 75px; 
+
+    width: 350px; 
+    height: 25px; 
+    color: #656565; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 300; 
+    word-wrap: break-word
+}

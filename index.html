@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Автомастерская</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      function scroll(val)
+      {
+          document.getElementById(val).click()
+      }
+      </script>
+  </head>
+  <body>
+    <header>
+        <div class="Header_Background"></div>
+        <img class="Header_Logo" src="./img/logo.png" />
+        <div class="Header_Navigationbuttons">
+          <div class="Header_Navigationbuttons_Frame">
+            <a id="services_link_id" class="Header_Navigationbuttons_Text" href="#services_id">Услуги</a>
+          </div>
+          <div class="Header_Navigationbuttons_Frame">
+            <a class="Header_Navigationbuttons_Text" href="#contacts_id">Контакты</a>
+          </div>
+          <div class="Header_Navigationbuttons_Frame">
+            <a class="Header_Navigationbuttons_Text" href="#addresses_id">Адрес</a>
+          </div>
+        </div>
+    </header>
+    <main>
+      <div class="MainInformation">
+        <div class="Frame4" style="width: 600px; height: 100px; justify-content: center; align-items: center; display: inline-flex">
+          <div style="width: 600px; height: 100px; color: white; font-size: 35px; font-family: Inika; font-weight: 700; word-wrap: break-word">РЕМОНТ И ОБСЛУЖИВАНИЕ ЛЮБОЙ  СЛОЖНОСТИ</div>
+        </div>
+        <div class="Frame5" style="width: 600px; height: 100px; justify-content: center; align-items: center; display: inline-flex">
+          <div style="width: 600px; height: 100px; color: white; font-size: 25px; font-family: Inika; font-weight: 700; word-wrap: break-word">Обслуженная машина так-же важно как и чистый и хороший дом</div>
+        </div>
+        <a href="#services_id">
+          <button class="MainInfoButton">Услуги</button>
+        </a>
+      </div>
+
+      <div class="Frame12" style="width: 1290px; height: 300px; left: 75px; top: 650px; position: absolute; justify-content: center; align-items: flex-start; gap: 40.72px; display: inline-flex">
+        <div class="Additional_Info_Block_Frame">
+          <img class="Additional_Info_Block_Frame_Img" src="./img/AdditionalInfoPage1.png" />
+          <div class="Additional_Info_Block_Frame_Text">Ремонт автомобиля</div>
+        </div>
+        <div class="Additional_Info_Block_Frame">
+          <img class="Additional_Info_Block_Frame_Img" src="./img/AdditionalInfoPage2.png" />
+          <div class="Additional_Info_Block_Frame_Text" >Плановое и внеплановое обслуживание автомобиля</div>
+        </div>
+      </div>
+
+      <div id="services_id" class="Services">
+        <div class="Services_Text">Услуги</div>
+        <div class="Line">
+          <div class="Main_Line_Item">
+            <a href="./site2.html"><img class="Main_Line_Item_img" src="./img/item1.png" /></a>
+            <div class="Main_Line_Item_text">Замена масла</div>
+          </div>
+          <div class="Main_Line_Item">
+            <img class="Main_Line_Item_img" src="./img/item2.png" />
+            <div class="Main_Line_Item_text">Электронная диагностика автомобиля</div>
+          </div>
+          <div class="Main_Line_Item">
+            <img class="Main_Line_Item_img" src="./img/item3.png" />
+            <div class="Main_Line_Item_text">Диагностика тормозной системы</div>
+          </div>
+          <div class="Main_Line_Item">
+            <img class="Main_Line_Item_img" src="./img/item4.png" />
+            <div class="Main_Line_Item_text">Шиномонтаж</div>
+          </div>
+        </div>
+        <div class="Line2">
+          <div class="Main_Line_Item">
+            <img class="Main_Line_Item_img" src="./img/item5.png" />
+            <div class="Main_Line_Item_text">Капитальный ремонт двигателя</div>
+          </div>
+          <div class="Main_Line_Item">
+            <img class="Main_Line_Item_img" src="./img/item6.png" />
+            <div class="Main_Line_Item_text">Капитальный ремонт кпп</div>
+          </div>
+          <div class="Main_Line_Item">
+            <img class="Main_Line_Item_img" src="./img/item7.png" />
+            <div class="Main_Line_Item_text">Ремонт ходовой части</div>
+          </div>
+          <div class="Main_Line_Item">
+            <img class="Main_Line_Item_img" src="./img/item8.png" />
+            <div class="Main_Line_Item_text">Ремонт топливной системы</div>
+          </div>
+        </div>
+        <button class="Servicesbutton" onclick="window.location='./site1.html'">ещё...</button>
+        
+      </div>
+
+      <div id="contacts_id" class="Contacts">
+        <div class="Contacts_text">Контакты</div>
+        <div class="Contacts_list" >
+          <div class="Contacts_item">
+            <div class="Main_Line_Item_text">https://t.me/YAuto</div>
+          </div>
+          <div class="Contacts_item">
+            <div class="Main_Line_Item_text">https://vk.com/club123456789</div>
+          </div>
+          <div class="Contacts_item">
+            <div class="Main_Line_Item_text">+7 (909) 347-46-64</div>
+          </div>
+          <div class="Contacts_item">
+            <div class="Main_Line_Item_text">+7 (800) 555-35-35</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="addresses_id" class="Addresses">
+        <div class="Addresses_Text">Адреса автомастерских</div>
+        <div class="Addresses_Frame">
+          <div class="Adress">
+            <div class="Address_Text">г. Казань, ул. Петербургская 23</div>
+          </div>
+          <div class="Address">
+            <div class="Address_Text">г. Уфа, ул. Менделеева 193/1</div>
+          </div>
+          <div class="Address">
+            <div class="Address_Text">г. Самара, ул. Российская 25/3</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="Footer_Frame">
+        <div class="Navigationbuttons">
+          <div class="Footer_link">
+            <div class="Footer_text">Услуги</div>
+          </div>
+          <div class="Footer_link">
+            <div class="Footer_text">Контакты</div>
+          </div>
+          <div class="Footer_link">
+            <div class="Footer_text">Адрес</div>
+          </div>
+        </div>
+        <div class="Yauto">YAUTO</div>
+        <div class="Yauto2024">© 2024 автомастерская yauto</div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function scroll(val)
+    {
+        document.getElementById(val).click()
+    }
+
+    $(document).ready(function(){
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
+});
+    </script>
+</html>
